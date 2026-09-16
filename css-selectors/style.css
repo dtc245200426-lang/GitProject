@@ -1,0 +1,55 @@
+/* Element selector */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    padding: 20px;
+}
+
+/* ID selector */
+#main-title {
+    text-align: center;
+    color: blue;
+}
+
+/* Class selector */
+.introduction {
+    font-size: 18px;
+    color: #333;
+}
+
+/* Grouping selector */
+h1, h2, p {
+    margin-bottom: 20px;
+}
+
+/* Định dạng danh sách */
+.hobby {
+    font-size: 18px;
+    margin: 8px;
+}
+
+.hobby1 {
+    color: red;
+}
+
+.hobby2 {
+    color: green;
+}
+
+.hobby3 {
+    color: purple;
+}
+
+/* ID selector cho button */
+#my-button {
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Pseudo-class */
+#my-button:hover {
+    background-color: red;
+}

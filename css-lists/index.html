@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Danh sách trong CSS</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .circle {
+            list-style-type: circle;
+        }
+
+        .square {
+            list-style-type: square;
+        }
+
+        .upper-roman {
+            list-style-type: upper-roman;
+        }
+
+        .lower-alpha {
+            list-style-type: lower-alpha;
+        }
+
+        .inside {
+            list-style-position: inside;
+        }
+
+        .custom {
+            list-style: square inside;
+        }
+
+        .color-list {
+            background-color: #ff9999;
+            padding: 20px;
+        }
+
+        .color-list li {
+            background-color: #ffe5e5;
+            color: darkred;
+            margin: 5px;
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Danh sách trong CSS</h1>
+
+    <h2>Danh sách không có thứ tự - Circle</h2>
+    <ul class="circle">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
+
+    <h2>Danh sách không có thứ tự - Square</h2>
+    <ul class="square">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
+
+    <h2>Danh sách có thứ tự - Số La Mã</h2>
+    <ol class="upper-roman">
+        <li>Học HTML</li>
+        <li>Học CSS</li>
+        <li>Học JavaScript</li>
+    </ol>
+
+    <h2>Danh sách có thứ tự - Chữ cái</h2>
+    <ol class="lower-alpha">
+        <li>Học HTML</li>
+        <li>Học CSS</li>
+        <li>Học JavaScript</li>
+    </ol>
+
+    <h2>Vị trí đánh dấu Inside</h2>
+    <ul class="inside">
+        <li>Danh sách sử dụng list-style-position: inside</li>
+        <li>Đánh dấu nằm bên trong dòng nội dung</li>
+    </ul>
+
+    <h2>Thuộc tính rút gọn list-style</h2>
+    <ul class="custom">
+        <li>Mục thứ nhất</li>
+        <li>Mục thứ hai</li>
+        <li>Mục thứ ba</li>
+    </ul>
+
+    <h2>Danh sách với màu sắc</h2>
+    <ul class="color-list">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
+
+</body>
+</html>

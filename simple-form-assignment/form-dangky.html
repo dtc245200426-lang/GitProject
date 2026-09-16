@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Đăng ký học viên</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        form {
+            width: 500px;
+            background-color: #ffffcc;
+            padding: 10px;
+        }
+
+        h2 {
+            background-color: #99ffff;
+            color: blue;
+        }
+
+        label {
+            color: blue;
+            display: inline-block;
+            width: 100px;
+        }
+    </style>
+</head>
+
+<body>
+
+<form>
+    <h2>ĐĂNG KÝ HỌC VIÊN</h2>
+
+    <p>
+        <label>Họ và tên</label>
+        <input type="text" name="fullname">
+    </p>
+
+    <p>
+        <label>Ngày sinh</label>
+        <input type="date" name="birthday">
+    </p>
+
+    <p>
+        <label>Giới tính</label>
+        <input type="radio" name="gender" value="male"> Nam
+        <input type="radio" name="gender" value="female"> Nữ
+    </p>
+
+    <p>
+        <label>Địa chỉ</label>
+        <textarea name="address"></textarea>
+    </p>
+
+    <p>
+        <label>Lớp</label>
+        <select name="class">
+            <option value="">-- Chọn lớp --</option>
+            <option>A1</option>
+            <option>A2</option>
+            <option>A3</option>
+        </select>
+    </p>
+
+    <p>
+        <label>Email</label>
+        <input type="email" name="email">
+    </p>
+
+    <p>
+        <label>Điện thoại</label>
+        <input type="text" name="phone">
+    </p>
+
+    <input type="submit" value="Đăng ký">
+    <input type="reset" value="Nhập lại">
+
+</form>
+
+</body>
+</html>
